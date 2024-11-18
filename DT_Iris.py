@@ -237,7 +237,7 @@ def classify_and_compare(tree, data):
 target_names = loadIrisDataset()[1]
 data = load_data_from_file('iris.data')
 
-treino, teste = separar_treino_teste(data, proporcao_teste=0.1)
+treino, teste = separar_treino_teste(data, proporcao_teste=0.5)
 
 #Printar dados de treino
 for k in treino:
